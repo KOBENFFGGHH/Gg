@@ -118,7 +118,7 @@ local ActualTypes = {
 local Properties = {
 	RoundFrame = {
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=14334760790",
+		Image = "http://www.roblox.com/asset/?id=16663324629",
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(3,3,297,297)
 	},
@@ -340,7 +340,7 @@ function Library.xova()
 	Main.Size = UDim2.new(0, 0, 0, 0)
 	Main.ClipsDescendants = true
 
-	TweenService:Create(Main,TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size = UDim2.new(0, 544, 0, 355)}):Play()
+	TweenService:Create(Main,TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size = UDim2.new(0, 544, 0, 245)}):Play()
 
 	MainUICorner.CornerRadius = UDim.new(0, 9)
 	MainUICorner.Name = "MainUICorner"
@@ -393,7 +393,7 @@ function Library.xova()
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0.0439999998, 0, 0.5, 0)
 	Logo.Size = UDim2.new(0, 35, 0, 35)
-	Logo.Image = "rbxassetid://14334760790"
+	Logo.Image = "rbxassetid://16663324629"
 
 	Title.Name = "Title"
 	Title.Parent = Topbar
@@ -402,7 +402,7 @@ function Library.xova()
 	Title.Position = UDim2.new(0.0882352963, 0, 0, 0)
 	Title.Size = UDim2.new(0, 483, 0, 31)
 	Title.Font = Enum.Font.GothamMedium
-	Title.Text = "KOBEN Hub"
+	Title.Text = "Attack Hub"
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 14.000
 	Title.TextWrapped = true
